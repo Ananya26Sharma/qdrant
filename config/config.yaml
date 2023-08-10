@@ -3,7 +3,7 @@ log_level: INFO
 
 storage:
   # Where to store all the data
-  storage_path: ./storage
+  storage_path: ./qdrant_storage
 
   # Where to store snapshots
   snapshots_path: ./snapshots
@@ -120,7 +120,7 @@ service:
   max_workers: 0
 
   # Host to bind the service on
-  host: 0.0.0.0
+  host: 172.31.29.177
 
   # HTTP(S) port to bind the service on
   http_port: 6333
